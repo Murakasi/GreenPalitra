@@ -143,3 +143,40 @@ body {
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+/*BLOCK WHY WE ARE*/
+.why {
+  margin-bottom: 150px;
+}
+.why__inner {
+  display: flex;
+  align-items: center;
+  gap: 0 22px;
+  font-size: 28px;
+}
+.why__text {
+  max-width: 580px;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.why__iiner-list {
+  list-style: none;
+  counter-reset: my-counter;
+  padding-left: 10px;
+}
+.why__innet-item::before {
+  content: counter(my-counter);
+  counter-increment: my-counter;
+  padding-right: 5px;
+}
+.why__innet-item + .why__innet-item {
+  margin-top: 55px;
+}
+.why__innet-item:nth-child(2),
+.why__innet-item:nth-child(5) {
+  padding-left: 60px;
+}
+.why__innet-item:nth-child(3),
+.why__innet-item:nth-child(4) {
+  padding-left: 90px;
+}
