@@ -9,16 +9,23 @@ body {
   color: #0c3e2e;
   font-family: "Inter", sans-serif;
 }
+.title {
+  font-size: 56px;
+  font-weight: 600px;
+  margin-bottom: 50px;
+}
 .f {
   font-family: "Balsamiq Sans", sans-serif;
   font-family: "Kaisei Decol", serif;
   font-family: "Manrope", sans-serif;
 }
+/*BLOCK HEADER*/
 .header {
   background-image: url(../Imeges/header-bg.svg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+  margin-bottom: 150px;
 }
 .container {
   width: 1200px;
@@ -91,4 +98,48 @@ body {
   font-size: 24px;
   text-align: center;
   padding: 25px 0;
+}
+/* BLOCK ABOUT US */
+.main {
+}
+.aboutus {
+  margin-bottom: 150px;
+}
+.container {
+}
+
+.aboutus__inner {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.about__inner-img {
+}
+.about__inner-box {
+}
+.about__text {
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+.about__text span {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #0c3e2e;
+}
+.about__inner-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.about__inner-list {
+  display: flex;
+  gap: 0 30px;
+  text-align: center;
+  color: #bb8a52;
+}
+.about__inner-list dt {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
