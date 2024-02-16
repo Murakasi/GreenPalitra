@@ -180,3 +180,27 @@ body {
 .why__innet-item:nth-child(4) {
   padding-left: 90px;
 }
+/*BLOCK PROJECTS*/
+.projects {
+  margin-bottom: 130px;
+}
+.projects__text {
+  font-size: 28px;
+  max-width: 595px;
+  margin-bottom: 50px;
+}
+.projects__gallery {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.gallery--item {
+  grid-area: span 2;
+}
+
+.projects__gallery-text {
+  text-align: center;
+  padding: 20px 0;
+}
