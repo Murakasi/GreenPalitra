@@ -101,6 +101,8 @@ body {
 }
 /* BLOCK ABOUT US */
 .main {
+  /* background: url(../Imeges/background/1.svg) 180px 500px no-repeat,
+    url(../Imeges/background/2.svg) 1200px 600px no-repeat; */
 }
 .aboutus {
   margin-bottom: 150px;
@@ -203,4 +205,29 @@ body {
 .projects__gallery-text {
   text-align: center;
   padding: 20px 0;
+}
+/*BLOCK SERVICES*/
+.services {
+  background-color: rgba(109, 151, 115, 0.1);
+  padding: 20px 0 40px;
+  margin-bottom: 110px;
+}
+.services__text {
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 585px;
+  margin-bottom: 30px;
+}
+.services__list {
+  padding: 0 25px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+.services__item-text {
+  padding-top: 20px;
+  font-size: 24px;
+  /* padding-bottom: 30px; */
 }
