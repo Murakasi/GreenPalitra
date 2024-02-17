@@ -231,3 +231,60 @@ body {
   font-size: 24px;
   /* padding-bottom: 30px; */
 }
+/*BLOCK PRICES*/
+.prices {
+  margin-bottom: 150px;
+}
+.prices__text {
+  font-size: 28px;
+  margin-bottom: 50px;
+  max-width: 730px;
+}
+.prices__box {
+  display: flex;
+  gap: 20px;
+}
+.prices__list {
+  border: 2px solid #ffba00;
+  padding: 60px 88px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prices__item-first {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.prices__item {
+  font-size: 24px;
+  max-width: 442px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.prices__item-sum {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 62px;
+  margin-top: auto;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  height: 94px;
+  padding-top: 50px;
+}
+.prices__item-sum sup {
+  vertical-align: super;
+  font-size: 15px;
+}
+.prices__item-btn {
+  display: block;
+  background-color: #ffba00;
+  padding: 20px;
+  font-size: 20px;
+}
+.first-block {
+  margin-left: 70px;
+}
