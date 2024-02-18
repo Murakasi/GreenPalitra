@@ -320,3 +320,32 @@ body {
   position: absolute;
   left: 0;
 }
+/*BLOCK TEAM*/
+.team {
+  margin-bottom: 150px;
+}
+.team__text {
+  font-size: 28px;
+  margin-bottom: 84px;
+}
+.team__inner {
+}
+.team__list {
+  display: flex;
+  gap: 0 50px;
+  justify-content: center;
+}
+.team__item {
+  font-size: 18px;
+}
+.team__item-img {
+  border: 1px solid #ffba00;
+  margin-bottom: 10px;
+}
+.team__item-name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.team__item-descr {
+  width: 218px;
+}
