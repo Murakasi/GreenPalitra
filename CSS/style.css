@@ -8,7 +8,7 @@ body {
   font-weight: 500;
   color: #0c3e2e;
   font-family: "Inter", sans-serif;
-  background-color: rgba(109, 151, 115, 0.2);
+  /* background-color: rgba(109, 151, 115, 0.2); */
 }
 .title {
   font-size: 36px;
