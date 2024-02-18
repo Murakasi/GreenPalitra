@@ -8,10 +8,11 @@ body {
   font-weight: 500;
   color: #0c3e2e;
   font-family: "Inter", sans-serif;
+  background-color: rgba(109, 151, 115, 0.2);
 }
 .title {
-  font-size: 56px;
-  font-weight: 600px;
+  font-size: 36px;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 .f {
@@ -246,7 +247,7 @@ body {
 }
 .prices__list {
   border: 2px solid #ffba00;
-  padding: 60px 88px;
+  padding: 60px 55px 88px;
   text-align: center;
   width: 100%;
   display: flex;
@@ -287,4 +288,35 @@ body {
 }
 .first-block {
   margin-left: 70px;
+}
+/*BLOCK WORK*/
+.work {
+  margin-bottom: 150px;
+}
+.work__list {
+  list-style-type: none;
+  counter-reset: my-counter;
+  max-width: 1070px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0 15px;
+}
+.work__item {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 185px;
+  padding-left: 64px;
+  position: relative;
+}
+.work__item::before {
+  content: counter(my-counter, decimal-leading-zero);
+  counter-increment: my-counter;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-size: 128px;
+  letter-spacing: -0.1em;
+  color: rgba(109, 151, 115, 0.2);
+  position: absolute;
+  left: 0;
 }
