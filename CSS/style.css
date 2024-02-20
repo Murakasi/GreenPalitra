@@ -403,10 +403,7 @@ body {
   font-size: 28px;
   margin-bottom: 15px;
 }
-.form {
-  /* display: flex;
-  flex-direction: column; */
-}
+
 .form__text {
   margin-bottom: 15px;
 }
@@ -449,7 +446,7 @@ body {
 }
 .form__link span {
   border-bottom: 1px solid #0c3e2e;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 .form__link img {
   margin-left: 30px;
