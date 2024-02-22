@@ -483,3 +483,27 @@ body {
 .contacts__info dt {
   margin-top: 20px;
 }
+/*BLOCK FOOTER*/
+.footer {
+  padding: 40px 0 47px;
+  background-color: rgba(109, 151, 115, 0.1);
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fotter__menu-item + .fotter__menu-item {
+  margin-top: 20px;
+}
+.social__list {
+  margin-top: 15px;
+  display: flex;
+  gap: 0 15px;
+}
+.fopter__text {
+  max-width: 321px;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 45px;
+  line-height: 44px;
+}
