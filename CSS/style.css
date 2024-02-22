@@ -464,3 +464,22 @@ body {
 .contact-form__img {
   border-radius: 40px;
 }
+/*BLOCK CONTACTS*/
+.contacts {
+  margin-bottom: 150px;
+}
+.contacts__inner {
+  display: flex;
+  gap: 0 22px;
+}
+.contacts__text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+.contacts__info {
+  font-size: 20px;
+}
+.contacts__info dt {
+  margin-top: 20px;
+}
