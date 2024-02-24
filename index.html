@@ -9,12 +9,14 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Inter:wght@100..900&family=Kaisei+Decol&family=Manrope:wght@700&display=swap"
     rel="stylesheet">
+  <link href="./CSS/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./CSS/style.css">
   <title>Зклкна політра</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header section">
     <div class="container">
       <div class="header__inner">
         <div class="header-top">
@@ -68,9 +70,9 @@
       </div>
     </div>
   </header>
-
+  <!-- 
   <main class="main">
-    <section class="aboutus" id="aboutus">
+    <section class="aboutus section" id="aboutus">
       <div class="container">
         <h2 class="title">
           Про нас
@@ -111,7 +113,7 @@
         </div>
       </div>
     </section>
-    <section class="why">
+    <section class="why section">
       <div class="container">
         <h2 class="title">
           Чому ми?
@@ -222,7 +224,7 @@
         </ul>
       </div>
     </section>
-    <section class="prices" id="prices">
+    <section class="prices section" id="prices">
       <div class="container">
         <h2 class="title">
           Тарифи і ціни
@@ -292,7 +294,7 @@
         </div>
       </div>
     </section>
-    <section class="work">
+    <section class="work section">
       <div class="container">
         <h2 class="title">
           Як ми працюємо
@@ -306,7 +308,7 @@
         </ol>
       </div>
     </section>
-    <section class="team">
+    <section class="team section">
       <div class="container">
         <h2 class="title">
           Наша команда
@@ -341,7 +343,7 @@
         </div>
       </div>
     </section>
-    <section class="questions">
+    <section class="questions section">
       <div class="container">
         <h2 class="title">
           Часті питання
@@ -404,7 +406,7 @@
         </div>
       </div>
     </section>
-    <section class="contact-form">
+    <section class="contact-form section">
       <div class="container">
         <div class="contact-form__inner">
           <div class="contact-form__content">
@@ -436,14 +438,89 @@
         </div>
       </div>
     </section>
-    <section class="reviews">
+    <section class="reviews section">
       <div class="container">
         <h2 class="title">
           Відгуки
         </h2>
-      </div>
+        <div class="reviews__swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/1.jpg" alt="1">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх
+                побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/2.jpg" alt="2">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews_item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/1.jpg" alt="1">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх
+                побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/2.jpg" alt="2">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews_item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/1.jpg" alt="1">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх
+                побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                <img class="reviews__item-photo" src="Imeges/swiper/2.jpg" alt="2">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews_item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+          </div>
+
+          <div class="reviews__items-arrow reviews__item-prev">
+            <img src="Imeges/swiper/arrowLeft.svg" alt="left">
+          </div>
+          <div class="reviews__items-arrow reviews_item-next">
+            <img src="Imeges/swiper/arrowRight.svg" alt="right">
+          </div>
+        </div>
+
+
     </section>
-    <section class="contacts" id="contacts">
+    <section class="contacts section" id="contacts">
       <div class="container">
         <h2 class="title">
           Контакти
@@ -531,6 +608,8 @@
       </div>
     </div>
   </footer>
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./JS/main.js"></script>
 </body>
 

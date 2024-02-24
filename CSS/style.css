@@ -1,4 +1,3 @@
-@import url(reset.css);
 html {
   box-sizing: border-box;
 }
@@ -23,6 +22,9 @@ body {
   font-weight: 600;
   margin-bottom: 50px;
 }
+.section {
+  margin-bottom: 150px;
+}
 .f {
   font-family: "Balsamiq Sans", sans-serif;
   font-family: "Kaisei Decol", serif;
@@ -34,12 +36,11 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  margin-bottom: 150px;
 }
 .container {
-  max-width: 1220px;
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .header__inner {
   min-height: 100vh;
@@ -52,18 +53,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.logo {
-}
-.logo__img {
-}
-.menu {
-}
+
 .menu__list {
   display: flex;
   gap: 0 30px;
 }
-.menu__item {
-}
+
 .menu__link {
   text-transform: uppercase;
   font-size: 16px;
@@ -71,16 +66,14 @@ body {
 .phone {
   color: #bb8a52;
 }
-.header-content {
-}
+
 .header-content__inner {
   display: flex;
   gap: 0 22px;
   justify-content: space-between;
   align-items: center;
 }
-.header-content_box {
-}
+
 .header-content__text {
   max-width: 510px;
   font-size: 18px;
@@ -101,8 +94,7 @@ body {
   padding: 20px 32px;
   font-size: 20px;
 }
-.header-content__img {
-}
+
 .header__text {
   font-size: 24px;
   text-align: center;
@@ -110,13 +102,15 @@ body {
 }
 /* BLOCK ABOUT US */
 .main {
-  /* background: url(../Imeges/background/1.svg) 180px 500px no-repeat,
+  background-image: url(../Imeges/background/test/grooppng/Group\ 71.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+
+  z-index: -1;
+  /* position: relative;
+  background: url(../Imeges/background/1.svg) 180px 500px no-repeat,
     url(../Imeges/background/2.svg) 1200px 600px no-repeat; */
-}
-.aboutus {
-  margin-bottom: 150px;
-}
-.container {
 }
 
 .aboutus__inner {
@@ -124,10 +118,7 @@ body {
   gap: 22px;
   align-items: center;
 }
-.about__inner-img {
-}
-.about__inner-box {
-}
+
 .about__text {
   max-width: 500px;
   margin-bottom: 30px;
@@ -156,9 +147,7 @@ body {
 }
 
 /*BLOCK WHY WE ARE*/
-.why {
-  margin-bottom: 150px;
-}
+
 .why__inner {
   display: flex;
   align-items: center;
@@ -241,9 +230,7 @@ body {
   /* padding-bottom: 30px; */
 }
 /*BLOCK PRICES*/
-.prices {
-  margin-bottom: 150px;
-}
+
 .prices__text {
   font-size: 28px;
   margin-bottom: 50px;
@@ -298,9 +285,7 @@ body {
   margin-left: 70px;
 }
 /*BLOCK WORK*/
-.work {
-  margin-bottom: 150px;
-}
+
 .work__list {
   list-style-type: none;
   counter-reset: my-counter;
@@ -327,17 +312,16 @@ body {
   color: rgba(109, 151, 115, 0.2);
   position: absolute;
   left: 0;
+  -webkit-text-stroke: 1px rgb(109, 151, 115);
 }
 /*BLOCK TEAM*/
 .team {
-  margin-bottom: 150px;
 }
 .team__text {
   font-size: 28px;
   margin-bottom: 84px;
 }
-.team__inner {
-}
+
 .team__list {
   display: flex;
   gap: 0 50px;
@@ -358,16 +342,12 @@ body {
   width: 218px;
 }
 /*BLOCK QUESTIONS*/
-.questions {
-  margin-bottom: 150px;
-}
 
 .questions__inner {
   display: flex;
   gap: 0 115px;
 }
-.questions__box {
-}
+
 .questions__detalis + .questions__detalis {
   margin-top: 40px;
 }
@@ -390,9 +370,7 @@ body {
   padding: 20px 0;
 }
 /*BLOCK CONTACT*/
-.contact-form {
-  margin-bottom: 150px;
-}
+
 .contact-form__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -465,9 +443,7 @@ body {
   border-radius: 40px;
 }
 /*BLOCK CONTACTS*/
-.contacts {
-  margin-bottom: 150px;
-}
+
 .contacts__inner {
   display: flex;
   gap: 0 22px;
@@ -482,6 +458,43 @@ body {
 }
 .contacts__info dt {
   margin-top: 20px;
+}
+/*BLOCK REVIEWS*/
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */
+.reviews__swiper {
+  padding-bottom: 50px;
+}
+
+.reviews__item {
+  font-size: 24px;
+}
+.reviews__item-name {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.reviews__item-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.reviews__items-arrow {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+.reviews__item-prev {
+  left: 50%;
+  transform: translateX(-65px);
+}
+.reviews_item-next {
+  right: 50%;
+  transform: translateX(65px);
 }
 /*BLOCK FOOTER*/
 .footer {
@@ -506,4 +519,10 @@ body {
   font-weight: 600;
   margin-top: 45px;
   line-height: 44px;
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 768px) {
 }
