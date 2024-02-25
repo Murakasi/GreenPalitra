@@ -22,8 +22,11 @@ body {
   font-weight: 600;
   margin-bottom: 50px;
 }
-.section {
+.section-mb {
   margin-bottom: 150px;
+}
+.section-ms {
+  margin-bottom: 110px;
 }
 .f {
   font-family: "Balsamiq Sans", sans-serif;
@@ -181,9 +184,7 @@ body {
   padding-left: 90px;
 }
 /*BLOCK PROJECTS*/
-.projects {
-  margin-bottom: 130px;
-}
+
 .projects__text {
   font-size: 28px;
   max-width: 595px;
@@ -208,7 +209,6 @@ body {
 .services {
   background-color: rgba(109, 151, 115, 0.1);
   padding: 20px 0 40px;
-  margin-bottom: 110px;
 }
 .services__text {
   font-size: 28px;
@@ -522,6 +522,10 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .section-mb,
+  .section-ms {
+    margin-bottom: 100;
+  }
 }
 
 @media (max-width: 768px) {
